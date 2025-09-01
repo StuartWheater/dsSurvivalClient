@@ -1,14 +1,14 @@
 #
-# Copyright (c) 2025, XXXX
+# Copyright (c) 2025, ProPASS Consortium. All rights reserved.
 #
-# dsSurvivalClient docker composition - v1.0.2
+# dsSurvivalClient docker composition - v1.0.3
 #
 # Usage: docker compose --file docker-compose_opal.yml up
 #
 
 services:
     opal:
-        image: obiba/opal:5.1.5
+        image: datashield/opal_citest:latest
         ports:
             - "8443:8443"
         links:
